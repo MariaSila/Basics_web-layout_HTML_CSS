@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    block-size: border-box;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./font/Gilroy-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(./font/Gilroy-Medium.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url(./font/gilroy-semibold.woff) format('woff');
+}
+
+
+body {
+    scroll-behavior: smooth;
+    background: #fff;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #000;
+}
+
+a:hover {
+    color: #f25822;
+   }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0;
+    margin-bottom: 84px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-brand {
+    max-width: 137px;
+}
+
+.navigation {
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.main {
+    margin-bottom: 162px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    max-width: 522px;
+    margin-right: 39px;
+}
+
+.content-title {
+    font-weight: 400;
+    font-size: 60px;
+
+    margin-bottom: 17px;
+}
+
+.content-text {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+
+    margin-bottom: 37px;
+    max-width: 466px;
+}
+
+.content-btn-box {
+    display: flex;
+    gap: 72px;
+}
+
+.content-btn {
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.content-btn-start {
+    color: #fff;
+    background: #f25822;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    padding: 15px 36px 16px 35px;
+}
+
+.content-btn-watch {
+    color: #aaa;
+    background-color: transparent
+}
+
+.img-content {
+}
+
+.footer {
+    margin-bottom: 96px;
+}
+
+.logos-footer {
+    display: flex;
+    justify-content: space-between;
+}
